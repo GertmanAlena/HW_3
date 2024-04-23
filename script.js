@@ -1,6 +1,6 @@
 import { getLikes, addLike, historyImage } from "./storage.js";
-
-const APIkey = '4MTdi8IeA_OlQAGqLZ6QkVLW5wSWKrpzfUrOnMisgKo';
+import { APIkey } from "./app.js";
+// const APIkey = APIkey;
 const url = `https://api.unsplash.com/photos/random`;
 
 async function getImages(url) {
