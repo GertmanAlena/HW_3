@@ -1,0 +1,55 @@
+#photo-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  flex: 1 1 calc(33.33% - 20px);
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+}
+
+.authorPhoto {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #141313;
+}
+
+.like {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-image: url("./images/heartbutton.png");
+  background-size: cover;
+  background-color: white;
+  filter: invert(1);
+}
+
+.btns {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.hover {
+  display: none;
+}
+
+.history-image {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
